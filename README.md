@@ -1,4 +1,5 @@
-# AndroidServer
+# Materials
+[![](https://jitpack.io/v/AndroThink/Materials.svg)](https://jitpack.io/#AndroThink/Materials)
 
 Java android library reduce time of application development .
 
