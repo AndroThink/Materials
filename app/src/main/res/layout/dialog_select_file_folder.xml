@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/xml_content_background"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/title"
+            android:layout_alignParentTop="true"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#333" />
+
+        <TextView
+            android:id="@+id/tvLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:padding="5dp"
+            android:layout_below="@id/tvTitle"
+            android:text="@string/path"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#333" />
+
+        <LinearLayout
+            android:id="@+id/layoutButtons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@android:color/transparent"
+            android:layout_below="@id/tvLocation"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/btnBack"
+                android:layout_width="0dp"
+                style="?android:attr/button"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/xml_selector_button"
+                android:clickable="true"
+                android:drawableTop="@drawable/ic_back_file_folder"
+                android:focusable="true"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/back"/>
+
+            <TextView
+                android:id="@+id/btnCreateNewFolder"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                style="?android:attr/button"
+                android:background="@drawable/xml_selector_button"
+                android:clickable="true"
+                android:drawableTop="@drawable/ic_add_folder"
+                android:focusable="true"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/new_folder"
+                android:textColor="#333" />
+
+            <TextView
+                android:id="@+id/btnSelect"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                style="?android:attr/button"
+                android:background="@drawable/xml_selector_button"
+                android:clickable="true"
+                android:drawableTop="@drawable/ic_select_file_folder"
+                android:focusable="true"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/select"
+                android:textColor="#333" />
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvFileFolders"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/layoutButtons"
+            android:layout_width="match_parent"
+            android:layout_above="@id/btnCancel"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"/>
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="?android:attr/button"
+            android:background="@drawable/xml_selector_button"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/btn_cancel"
+            android:textAllCaps="false"
+            android:layout_marginTop="16dp"
+            android:layout_alignParentBottom="true"
+            android:textColor="#333" />
+
+    </RelativeLayout>
+</layout>

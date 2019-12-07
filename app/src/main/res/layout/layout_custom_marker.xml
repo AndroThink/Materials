@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:padding="4dp">
+
+        <com.androthink.materials.views.CircleImageView
+            android:id="@+id/markerImage"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2dp"
+            android:contentDescription="@null"
+            android:src="@drawable/xml_shape_circle"
+            app:civ_border_color="#fff" />
+
+        <View
+            android:id="@+id/markerShape"
+            android:layout_width="64dp"
+            android:layout_height="52dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/ic_white_marker_image"/>
+    </RelativeLayout>
+
+</layout>

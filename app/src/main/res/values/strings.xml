@@ -1,0 +1,19 @@
+<resources>
+    <string name="materials">materials</string>
+    <string name="title">Title</string>
+    <string name="ok">OK</string>
+    <string name="path">Path :</string>
+    <string name="create">Create</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="you_have_to_select_file">You have to select a file !</string>
+    <string name="already_used_folder_name">Already Used Folder Name !</string>
+    <string name="enter_folder_name">Enter Folder Name</string>
+    <string name="back">Back</string>
+    <string name="new_folder">New Folder</string>
+    <string name="select">Select</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="confirm">Confirm</string>
+    <string name="select_option">Select Option</string>
+</resources>

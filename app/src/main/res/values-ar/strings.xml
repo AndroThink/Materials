@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="materials">materials</string>
+    <string name="title">عنوان</string>
+    <string name="ok">موافق</string>
+    <string name="path">المسار :</string>
+    <string name="create">انشاء</string>
+    <string name="btn_cancel">الغاء</string>
+    <string name="you_have_to_select_file">يجب اختيار ملف !</string>
+    <string name="already_used_folder_name">اسم مجلد مستخدم من قبل !</string>
+    <string name="enter_folder_name">ادخل اسم المجلد</string>
+    <string name="back">رجوع</string>
+    <string name="new_folder">مجلد جديد</string>
+    <string name="select">اختيار</string>
+
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="confirm">تأكيد</string>
+    <string name="select_option">أختر</string>
+</resources>
